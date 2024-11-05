@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bgColor: '#1f242d',
+        fontColors: '#0ef'
       },
+      fontFamily: {
+        myFont:['Bebas Neue','sans-serif']
+      }
     },
   },
   plugins: [],
