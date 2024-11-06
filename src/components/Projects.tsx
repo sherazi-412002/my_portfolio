@@ -45,7 +45,7 @@ function Projects() {
           justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
   
           <div> <Image src={zoology} alt='resume' width={1000} height={1000} className='w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
-            <p className="text-3xl font-sans font-bold">Zoological Blogs Website</p>
+            <p className="text-3xl font-sans text-center font-bold">Zoological Blogs Website</p>
           
             <div className=' flex gap-6'>
 
