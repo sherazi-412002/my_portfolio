@@ -53,7 +53,7 @@ function HeroSection() {
                 </div>
             </div>
 
-            <div className='w-[80%] ml-[10%] lg:ml-0 lg:mr-[10%]'>
+            <div className='md:flex-none flex justify-center  lg:ml-0 lg:mr-[10%]'>
                 <Image src={profile} alt='profilePic' height={1000} width={1000} className='w-[310px] h-[310px] md:h-[350px] md:w-[350px] shadow-2xl shadow-fontColors  zoomInImg lg:h-[400px] lg:w-[400px] rounded-full mt-5 md:mt-10'/>
 
             </div>

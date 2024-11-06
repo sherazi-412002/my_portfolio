@@ -12,7 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         bgColor: '#1f242d',
-        fontColors: '#0ef'
+        fontColors: '#0ef',
+        bgColorDrk:'#32363f',
+        bgGray:'#cccccc'
       },
       fontFamily: {
         myFont:['Bebas Neue','sans-serif']

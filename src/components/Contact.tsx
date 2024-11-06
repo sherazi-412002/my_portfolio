@@ -57,16 +57,16 @@ function Contact() {
     
     
       return (
-        <div className="font-serif md:border-[1px] md:border-blue-300 w-screen md:w-[96%] md:ml-[2%] mt-6 rounded-3xl p-2 md:p-0">
+        <div className="font-serif md:border-[1px] md:border-blue-300 w-auto md:w-[96%] md:ml-[2%] mt-6 rounded-3xl p-4 md:p-0">
 
             
             <p className='flex items-center justify-center text-fontColors mt-3 font-sans font-bold'>Get In Touch</p>
             <h2 className='flex justify-center mt-2 text-6xl font-bold font-sans'>Contact Me</h2>
 
             
-             <div className="flex md:justify-around flex-col md:flex-row w-screen lg:w-[90%] md:ml-[5%]">
+             <div className="flex md:justify-around flex-col md:flex-row w-auto lg:w-[90%] md:ml-[5%]">
                 
-                <div className='border-[2px] hover:border-[4px] border-blue-300 h-[500px] rounded-3xl w-screen md:w-[340px] lg:w-[400px] p-4 md:space-y-1 mt-16 lg:space-y-2 flex flex-col 
+                <div className='border-[2px] hover:border-[4px] border-blue-300 h-[500px] rounded-3xl w-auto md:w-[340px] lg:w-[400px] p-4 md:space-y-1 mt-16 lg:space-y-2 flex flex-col 
                   justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
 
                     <div className="flex flex-col justify-center items-center hover:opacity-50"><Link href={'mailto:syedshoaibsherazi412002@gmail.com'}> <MdEmail size={40}/> </Link>
@@ -81,7 +81,7 @@ function Contact() {
                 
               
     
-                <form onSubmit={handleSubmit} className=' w-screen md:w-80 lg:w-[400px] p-7 rounded-3xl mt-16 hover:shadow-lg hover:shadow-fontColors border-[2px] hover:border-[4px] border-blue-300 '>
+                <form onSubmit={handleSubmit} className=' w-auto md:w-80 lg:w-[400px] p-7 rounded-3xl mt-16 hover:shadow-lg hover:shadow-fontColors border-[2px] hover:border-[4px] border-blue-300 '>
                     <h2 className='text-4xl text-center font-bold'>Contact Form</h2>
                     <div className='mt-20px'>
                     <label>Full Name</label>
