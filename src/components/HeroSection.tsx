@@ -36,9 +36,9 @@ function HeroSection() {
         <section className='flex flex-col md:flex-row md:justify-center gap-16  lg:gap-0 font-sans'>
 
             <div className='flex justify-center flex-col items-center md:items-start space-y-3 w-[90%] md:w-[100%] ml-[10%]'>
-                <p className='text-2xl lg:text-3xl slideBtm font-myFont '>Hello, Its Me</p>
+                <p className='text-xl lg:text-3xl slideBtm font-myFont '>Hello, Its Me</p>
                 <p className='text-3xl lg:text-5xl  font-bold font-myFont slideRightName'>Syed Shoaib Sherazi</p>
-                <p className='text-2xl lg:text-4xl font-bold font-myFont slideBtm '>And I am a <span ref={el} className='text-fontColors'></span></p><br />
+                <p className='text-xl lg:text-4xl font-bold font-myFont slideBtm '>And I am a <span ref={el} className='text-fontColors'></span></p><br />
                 <div className='space-y-6'>
                 <div className='flex gap-5'>
                     <button className='p-3 w-36 rounded-full text-bgColor bg-fontColors  text-xl 
@@ -54,7 +54,7 @@ function HeroSection() {
             </div>
 
             <div className='w-[80%] ml-[10%] lg:ml-0 lg:mr-[10%]'>
-                <Image src={profile} alt='profilePic' height={1000} width={1000} className='h-[350px] w-[350px] shadow-2xl shadow-fontColors  zoomInImg lg:h-[400px] lg:w-[400px] rounded-full mt-5 md:mt-10'/>
+                <Image src={profile} alt='profilePic' height={1000} width={1000} className='w-[310px] h-[310px] md:h-[350px] md:w-[350px] shadow-2xl shadow-fontColors  zoomInImg lg:h-[400px] lg:w-[400px] rounded-full mt-5 md:mt-10'/>
 
             </div>
         </section>
