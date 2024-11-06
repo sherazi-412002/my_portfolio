@@ -25,7 +25,7 @@ function About() {
                         <h2 className='text-xl lg:text-2xl font-bold font-sans'>Experience</h2>
                         <p className='text-gray-400 text-[15px]'>1 + years</p>
                         <p className='text-gray-400 text-[15px]'>Teacher</p>
-                        <p className='text-gray-400 text-[15px]'>Allama Iqbal Sec School | Sep 2021 - Nov 2023</p>
+                        <p className='text-gray-400 text-[15px]'>Allama Iqbal Sec School | Sep-21 to Nov-23</p>
                     </div>
                     <div className='border-[2px] border-blue-300 h-48 rounded-3xl w-auto lg:w-96 lg:p-4 md:space-y-1 lg:space-y-2 flex flex-col justify-center items-center '>
                         <div><MdCastForEducation size={30} /></div>

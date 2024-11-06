@@ -70,7 +70,7 @@ function Contact() {
                   justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
 
                     <div className="flex flex-col justify-center items-center hover:opacity-50"><Link href={'mailto:syedshoaibsherazi412002@gmail.com'}> <MdEmail size={40}/> </Link>
-                    <p className="text-xl text-[12px] md:text-[20px]">syedshoaibsherazi412002@gmail.com</p></div>
+                    <p className=" text-[14px] md:text-[20px]">syedshoaibsherazi412002@gmail.com</p></div>
                     <div className="flex flex-col justify-center items-center hover:opacity-50"><Link href={'https://www.linkedin.com/in/syed-shoaib-sberazi/'}> <FaLinkedin size={40}/> </Link>
                     <p className="text-xl">LinkedIn Id</p></div>
                     <div className="flex flex-col justify-center items-center hover:opacity-50"><Link href={'https://www.linkedin.com/in/syed-shoaib-sberazi-3638822b4/'}> < FaGithub size={40}/> </Link>
