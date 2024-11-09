@@ -44,7 +44,7 @@ function HeroSection() {
                     <button className='p-3 w-36 rounded-full text-bgColor bg-fontColors  text-xl 
                     font-bold font-sans hover:duration-300 hover:delay-150 slideLeft hover:shadow-2xl hover:shadow-fontColors'><Link href={'https://hackathons-gamma.vercel.app/'}>View CV</Link></button>
                     <button className='p-2 w-36 rounded-full text-bgColor bg-fontColors hover:p-1 text-xl 
-                    font-bold font-sans hover:duration-300 hover:delay-150 slideLeft hover:shadow-2xl hover:shadow-fontColors'>Contact Info</button>
+                    font-bold font-sans hover:duration-300 hover:delay-150 slideLeft hover:shadow-2xl hover:shadow-fontColors'> <Link href={'/contact'}>Contact Info</Link></button>
                 </div>
                 <div className='flex gap-7 items-center justify-center slideTopBtn'>
                   <Link href={'https://github.com/sherazi-412002'}><FaGithub size={50} color='#0ef' className='border-2 border-fontColors hover:text-bgColor hover:shadow-2xl hover:shadow-fontColors rounded-full p-2'/></Link>
