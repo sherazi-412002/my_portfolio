@@ -26,9 +26,9 @@ function Projects() {
           justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
 
           <div> <Image src={resume} alt='resume' width={1000} height={1000} className='w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
-            <p className="text-3xl font-sans font-bold">Resume Builder</p>
+          <p className="text-3xl font-sans font-bold">Resume Builder</p>
           
-            <div className=' flex gap-6'>
+          <div className=' flex gap-6'>
 
             <button className='p-3 w-36 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
               font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://github.com/sherazi-412002/Hackathons/tree/main/Hackathon-01/milestone04'}>GitHub</Link></button>
@@ -45,9 +45,9 @@ function Projects() {
           justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
   
           <div> <Image src={zoology} alt='resume' width={1000} height={1000} className='w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
-            <p className="text-3xl font-sans text-center font-bold">Zoological Blogs Website</p>
+          <p className="text-3xl font-sans text-center font-bold">Zoological Blogs Website</p>
           
-            <div className=' flex gap-6'>
+          <div className=' flex gap-6'>
 
             <button className='p-3 w-36 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
               font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://github.com/sherazi-412002/assignment_04-and-05'}>GitHub</Link></button>
@@ -65,15 +65,15 @@ function Projects() {
           justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
 
           <div> <Image src={architect} alt='resume' width={1000} height={1000} className='w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
-            <p className="text-3xl font-sans font-bold">Architect Website</p>
+          <p className="text-3xl font-sans font-bold">Architect Website</p>
           
-            <div className=' flex gap-6'>
+          <div className=' flex gap-6'>
             <button className='p-3 w-36 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
               font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://github.com/sherazi-412002/first_next_app_from_figma_templet'}>GitHub</Link></button>
             <button className='p-2 w-36 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
                 font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://first-next-app-from-figma-templet.vercel.app/'}>Live Demo</Link></button>
           
-          </div>  
+           </div>  
        </div>
 
        {/* card04 */}
@@ -82,15 +82,15 @@ function Projects() {
         justify-around items-center hover:shadow-lg hover:shadow-fontColors '>
   
           <div> <Image src={wordCounter} alt='resume' width={1000} height={1000} className='w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
-            <p className="text-3xl font-sans font-bold">Word Counter</p>
+          <p className="text-3xl font-sans font-bold">Word Counter</p>
           
-            <div className=' flex gap-6'>
+          <div>
 
             <button className='p-3 w-72 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
               font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://github.com/sherazi-412002/word-counter'}>GitHub</Link></button>
             
           </div>  
-       </div>
+        </div>
 
         {/* card05 */}
 
@@ -100,7 +100,7 @@ function Projects() {
           <div> <Image src={currencyConvertor} alt='resume' width={1000} height={1000} className='w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
             <p className="text-3xl font-sans font-bold">Currency Convertor</p>
           
-            <div className=' flex gap-6'>
+            <div>
 
             <button className='p-3 w-72 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
               font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://github.com/sherazi-412002/currency-convertor'}>GitHub</Link></button>
@@ -116,7 +116,7 @@ function Projects() {
           <div> <Image src={todo} alt='resume' width={1000} height={1000} className=' w-auto md:w-[380px] rounded-lg h-[250px]'/></div>
             <p className="text-3xl font-sans font-bold">Todo App</p>
           
-            <div className=' flex gap-6'>
+            <div>
 
             <button className='p-3 w-72 rounded-full hover:bg-fontColors hover:text-bgColor text-xl border-blue-300 border-[1px] 
               font-bold font-sans hover:duration-300 hover:delay-150'><Link href={'https://github.com/sherazi-412002/updated-todo'}>GitHub</Link></button>

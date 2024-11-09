@@ -17,13 +17,13 @@ function Navbar() {
     <div>
 
         <nav className='flex  justify-around gap-8 md:justify-between items-center w-[100%] left-0 right-0 top-0 h-[12vh] md:h-[15vh] transparent  text-white font-serif fixed'>
-            <div className='text-xl lg:text-4xl lg:ml-12 slideRight font-myFont'>SYED SHOAIB SHERAZI</div>
+            <div className='text-xl lg:text-4xl lg:ml-12 slideRight font-logoFont'>SYED SHOAIB SHERAZI</div>
             <div>
-                <ul className=' md:flex hidden gap-8 text-xl lg:text-2xl slideTop mr-20'>
-                   <Link href={'/'}><li   className='hover:text-fontColors hover:shadow-sm p-2  hover:border-[1px] hover:shadow-fontColors  hover:duration-300 hover:delay-300 font-myFont  font-bold  '>Home</li></Link>
-                    <Link href={'/about'}><li  className='hover:text-fontColors hover:shadow-sm p-2  hover:border-[1px] hover:shadow-fontColors hover:duration-300 hover:delay-300 font-myFont font-bold'>About</li></Link>
-                    <Link href={'/projects'}><li  className='hover:text-fontColors hover:shadow-sm p-2  hover:border-[1px] hover:shadow-fontColors hover:duration-300 hover:delay-300 font-myFont font-bold'>Projects</li></Link>
-                    <Link href={'/contact'}><li className='hover:text-fontColors hover:shadow-sm p-2  hover:border-[1px] hover:shadow-fontColors hover:duration-300 hover:delay-300 font-myFont font-bold'>Contact</li></Link>
+                <ul className=' md:flex hidden gap-8 text-xl lg:text-2xl hover:rounded-full slideTop mr-20'>
+                   <Link href={'/'}><li   className='hover:text-fontColors hover:shadow-xl p-2  hover:border-[1px] hover:shadow-fontColors  hover:duration-300 hover:delay-300 font-myFont  font-bold  '>Home</li></Link>
+                    <Link href={'/about'}><li  className='hover:text-fontColors hover:shadow-xl p-2  hover:border-[1px] hover:shadow-fontColors hover:duration-300 hover:delay-300 font-myFont font-bold'>About</li></Link>
+                    <Link href={'/projects'}><li  className='hover:text-fontColors hover:shadow-xl p-2  hover:border-[1px] hover:shadow-fontColors hover:duration-300 hover:delay-300 font-myFont font-bold'>Projects</li></Link>
+                    <Link href={'/contact'}><li className='hover:text-fontColors hover:shadow-xl p-2  hover:border-[1px] hover:shadow-fontColors hover:duration-300 hover:delay-300 font-myFont font-bold'>Contact</li></Link>
                 </ul>
             </div>
         
@@ -31,7 +31,7 @@ function Navbar() {
         {/* Navbar for Small devices */}
             <div className='md:hidden flex items-center mr-3'>
 
-            <div className='' onClick={toggleNavbar}>
+            <div onClick={toggleNavbar}>
                 {isClick?(<div><RxCross2 color='#0ef' size={35} /></div>):(<div><GiHamburgerMenu size={35} color='#0ef' /></div>)}
                 
             </div >

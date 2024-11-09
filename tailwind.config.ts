@@ -17,7 +17,8 @@ const config: Config = {
         bgGray:'#cccccc'
       },
       fontFamily: {
-        myFont:['Bebas Neue','sans-serif']
+        myFont:['Bebas Neue','sans-serif'],
+        logoFont:['Bebas Neue']
       }
     },
   },

@@ -83,23 +83,23 @@ function Contact() {
     
                 <form onSubmit={handleSubmit} className=' w-auto md:w-80 lg:w-[400px] p-7 rounded-3xl mt-16 hover:shadow-lg hover:shadow-fontColors border-[2px] hover:border-[4px] border-blue-300 '>
                     <h2 className='text-4xl text-center font-bold'>Contact Form</h2>
-                    <div className='mt-20px'>
+                    
                     <label>Full Name</label>
                     <input type='text'name='name'  value={formData.name} onChange={handleInputChange} className='w-[100%] h-12
                     border-blue-300 border-[4px] rounded-md outline-none p-4 text-[16px] mt-2 text-bgColor' placeholder='Enter Your Name' required />
-                    </div>
+                    
     
-                    <div className='mt-20px'>
+                    
                     <label>Email Adress</label>
                     <input type='email' name='email' value={formData.email} onChange={handleInputChange} className='w-[100%] h-12 
                      border-blue-300 border-[4px] rounded-md outline-none p-4 text-[16px] mt-2 text-bgColor' placeholder='Enter Your Email' required />
-                    </div>
+                    
     
-                    <div className='input-box'>
+                    
                     <label>Your Message</label>
                     <textarea name="message" value={formData.message} onChange={handleInputChange} className='w-[100%] border-blue-300 
                       border-[4px] h-[120px]  resize-none rounded-md outline-none p-4 text-[16px] mt-2 text-bgColor' placeholder='Enter Your Message' required></textarea>
-                    </div>
+                    
     
                     <button type='submit' className='w-[100%] h-14 hover:bg-fontColors transition text-fontColors hover:text-bgColor font-bold border-[2px] border-blue-300 hover:shadow-md
                       hover:shadow-fontColors mt-6' >Send Message</button>

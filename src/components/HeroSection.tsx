@@ -35,7 +35,7 @@ function HeroSection() {
     <div>
         <section className='flex flex-col md:flex-row md:justify-center gap-16  lg:gap-0 font-sans'>
 
-            <div className='flex justify-center flex-col items-center md:items-start space-y-3 w-[90%] md:w-[100%] ml-[10%]'>
+            <div className='flex justify-center flex-col items-center md:items-start space-y-3 w-[100%] md:ml-[10%]'>
                 <p className='text-xl lg:text-3xl slideBtm font-myFont '>Hello, Its Me</p>
                 <p className='text-3xl lg:text-5xl  font-bold font-myFont slideRightName'>Syed Shoaib Sherazi</p>
                 <p className='text-xl lg:text-4xl font-bold font-myFont slideBtm '>And I am a <span ref={el} className='text-fontColors'></span></p><br />

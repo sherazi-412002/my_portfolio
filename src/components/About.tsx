@@ -18,9 +18,8 @@ function About() {
             </div>
 
             <div className='w-auto md:w-[94%] mt-8 md:mt-8 lg:mt-0 md:ml-[5%]'>
-
                 <div className='flex flex-col md:flex-row w-auto lg:w-[100%] gap-6 lg:justify-center md:gap-2 lg:gap-8'>
-                    <div className='border-[2px] border-blue-300 h-48 rounded-3xl w-autolg:w-96 lg:p-4 md:space-y-1 lg:space-y-2 flex flex-col justify-center items-center '>
+                    <div className='border-[2px] border-blue-300 h-48 rounded-3xl w-auto lg:w-96 lg:p-4 md:space-y-1 lg:space-y-2 flex flex-col justify-center items-center '>
                         <div><IoRibbon size={30} /></div>
                         <h2 className='text-xl lg:text-2xl font-bold font-sans'>Experience</h2>
                         <p className='text-gray-400 text-[15px]'>1 + years</p>
